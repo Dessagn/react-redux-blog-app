@@ -3,3 +3,40 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+a.active{
+  color: orange;
+  text-decoration: none;
+  border-bottom: thin solid orange;
+  font-size: 15px;
+  font-weight: 600;
+}
+nav li>a{
+  color: white;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+
+}
+a.btn-custom:hover, a.btn-custom:focus{
+  color: orange;
+}
+nav li {
+  display: inline;
+  font-size: 20px;
+  margin-right: 5px;
+}
+nav ul {
+  text-align: right;
+  margin-right: 10px;
+}
+a.btn-custom{
+  background-color: rgba(112, 112, 112, 0.7);
+}
+header{
+  background-image: url(./img/26.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background-attachment: fixed;
+}
